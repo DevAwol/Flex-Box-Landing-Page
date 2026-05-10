@@ -1,4 +1,8 @@
 
+a{
+    margin: 0;
+}
+
 .content{
     display: flex;
     flex-direction: column;
@@ -47,6 +51,17 @@ header {
     display: flex;
     flex-direction: column;
     background-color: blanchedalmond;
+    align-items: center;
+}
+
+.bottom p {
+    width: 600px;
+
+}
+.bottom div {
+    text-align: end;
+    flex-shrink: 0;
+    margin-left: 500px;
 }
 
 footer {
